@@ -2,13 +2,6 @@
   #main.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -21,12 +14,12 @@
    */
 
   --cultured: hsla(0, 0%, 97%, 1);
-  --french-bistre: rgb(93, 131, 127);
+  --french-bistre: rgb(243, 167, 157);
   --jet: rgb(51, 51, 51);
-  --bistre: rgb(0, 41, 46);
+  --bistre: rgb(206, 103, 91);
   --bistre_a75: hsla(35, 100%, 9%, 0.75);
   --camel: rgb(116, 180, 150);
-  --umber: hsla(31, 17%, 36%, 1);
+  --umber: rgb(156, 91, 68);
   --golden-brown_a60: hsla(184, 70%, 38%, 0.6);
   --granite-gray: hsla(0, 0%, 38%, 1);   
   --white: hsla(0, 0%, 100%, 1);
@@ -154,7 +147,7 @@ body {
 .container { padding-inline: 16px; }
 
 .logo {
-  color: var(--bistre);
+  color: var(--black);
   font-size: var(--fs-3);
   font-family: var(--ff-rosario);
 }
@@ -167,7 +160,7 @@ body {
 .h2,
 .h3,
 .h4 {
-  color: var(--bistre);
+  color: var(--black);
   font-family: var(--ff-rosario);
   font-weight: var(--fw-600);
   line-height: 1.3;
@@ -655,7 +648,7 @@ body {
 }
 
 .footer .logo {
-  color: var(--french-bistre);
+  color: var(--white);
   font-size: 3.2rem;
 }
 
@@ -667,12 +660,12 @@ body {
 }
 
 .social-link {
-  color: var(--french-bistre);
+  color: var(--white);
   font-size: 1.8rem;
 }
 
 .footer-list-title {
-  color: var(--french-bistre);
+  color: var(--white);
   font-family: var(--ff-rosario);
   font-size: 1.8rem;
   font-weight: var(--fw-700);
@@ -689,7 +682,7 @@ body {
 }
 
 .copyright {
-  color: var(--french-bistre);
+  color: var(--white);
   font-family: var(--ff-rosario);
   font-size: var(--fs-5);
 }
@@ -846,7 +839,7 @@ body {
     gap: 40px;
   }
 
-  .navbar-link { color: var(--bistre); }
+  .navbar-link { color: var(--black); }
 
   
 
